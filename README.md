@@ -6,8 +6,8 @@
 
 #### 目录
 
-0. [环境搭建](https://github.com/mylafe/golang-study/blob/master/0/环境搭建.md)
-1. hello world
+0. [环境搭建](https://github.com/mylafe/golang-study/blob/master/0.install/环境搭建.md)
+1. [hello world](https://github.com/mylafe/golang-study/blob/master/1.demo)
 2. 结构
 3. 变量
 4. 数组
