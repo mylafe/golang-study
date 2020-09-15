@@ -1,4 +1,4 @@
-## go语言学习
+## the way to go
 
 #### go
 
@@ -8,7 +8,7 @@
 
 0. [环境搭建](https://github.com/mylafe/golang-study/blob/master/0.install/环境搭建.md)
 1. [hello world](https://github.com/mylafe/golang-study/blob/master/1.demo)
-2. 结构
+2. [语言结构](https://github.com/mylafe/golang-study/blob/master/2.structure)
 3. 变量
 4. 数组
 5. 切片
