@@ -6,10 +6,10 @@
 
 #### 目录
 
-0. [环境搭建](https://github.com/mylafe/golang-study/blob/master/0.install/环境搭建.md)
-1. [hello world](https://github.com/mylafe/golang-study/blob/master/1.demo)
-2. [语言结构](https://github.com/mylafe/golang-study/blob/master/2.structure)
-3. [数据类型和声明](https://github.com/mylafe/golang-study/blob/master/3.dataType)
+0. [环境搭建](0.install/环境搭建.md)
+1. [hello world](1.demo/README.md)
+2. [语言结构](2.structure/README.md)
+3. [数据类型和声明](3.dataType/README.md)
 4. 数组
 5. 切片
 6. 集合
