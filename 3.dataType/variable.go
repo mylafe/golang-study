@@ -7,7 +7,7 @@ import (
 func main()  {
 	var age_1 uint8 = 31
 	var age_2 = 32
-	age_3 := 33
+	age_3 := 33 //等同于 var age_3 = 33
 	fmt.Println(age_1, age_2, age_3)
 
 	var age_4, age_5, age_6 int = 31, 32, 33
