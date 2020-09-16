@@ -48,7 +48,27 @@ float32 float64
 
 ###### 实例
 
-    constant.go
+````go
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	const name string  = "mylafe"
+	fmt.Println(name)
+
+	const age = 30
+	fmt.Println(age)
+
+	const name_1, name_2 string = "mylafe", "wave"
+	fmt.Println(name_1, name_2)
+
+	const name_3, age_3  = "mylafe", 30
+	fmt.Println(name_3, age_3)
+}
+````
     
 > D:\Program Files (x86)\Ampps\www\github\golang-study\3.dataType>go run constant.go
   
@@ -83,7 +103,29 @@ float32 float64
 
 ###### 实例
 
-    variable.go
+````go
+package main
+
+import (
+	"fmt"
+)
+
+func main()  {
+	var age_1 uint8 = 31
+	var age_2 = 32
+	age_3 := 33 //等同于 var age_3 = 33
+	fmt.Println(age_1, age_2, age_3)
+
+	var age_4, age_5, age_6 int = 31, 32, 33
+	fmt.Println(age_4, age_5, age_6)
+
+	var name_1, age_7 = "mylafe", 30
+	fmt.Println(name_1, age_7)
+
+	name_2, is_boy, height := "wave", true, 180.66
+	fmt.Println(name_2, is_boy, height)
+}
+````
     
 > D:\Program Files (x86)\Ampps\www\github\golang-study\3.dataType>go run variable.go
 
@@ -104,7 +146,21 @@ fmt.Sprintf：格式化并返回一个字符串，不输出。
 
 ###### 实例
 
-    print.go
+````go
+package main
+
+import (
+	"fmt"
+)
+
+func main()  {
+	fmt.Print("输出到控制台不换行")
+	fmt.Println("---")
+	fmt.Println("输出到控制台并换行")
+	fmt.Printf("name=%s,age=%d\n","Tom", 30)
+	fmt.Printf("name=%s,age=%d,height=%v\n","Tom", 30, fmt.Sprintf("%.2f", 180.567))
+}
+````
     
 > D:\Program Files (x86)\Ampps\www\github\golang-study\3.dataType>go run print.go
 

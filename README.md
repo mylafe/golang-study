@@ -10,9 +10,10 @@
 1. [hello world](1.demo/README.md)
 2. [语言结构](2.structure/README.md)
 3. [数据类型和声明](3.dataType/README.md)
-4. 数组
-5. 切片
-6. 集合
-7. 循环
-8. 函数
-9. 通道
+4. [条件和循环](4.if-for/README.md)
+5. 数组
+6. 切片
+7. 集合
+8. 循环
+9. 函数
+10. 通道
