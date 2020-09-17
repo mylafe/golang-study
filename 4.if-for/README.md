@@ -214,3 +214,139 @@ func main() {
 > D:\Program Files (x86)\Ampps\www\github\golang-study\4.if-for>go run select.go
 
     no communication
+
+----
+
+## 循环语句
+
+#### for 循环
+
+重复执行语句块。
+
+Go 语言的 For 循环有 3 种形式，只有其中的一种使用分号。
+
+和 C 语言的 for 一样：
+
+    for init; condition; post { }
+    
+和 C 的 while 一样：
+
+    for condition { }
+    
+和 C 的 for(;;) 一样：
+
+    for { }
+
+###### 实例
+
+计算 1 到 100 的数字之和：
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+        sum := 0
+        for i := 0; i <= 10; i++ {
+                sum += i
+        }
+        fmt.Println(sum)
+}
+```
+
+> D:\Program Files (x86)\Ampps\www\github\golang-study\4.if-for>go run for.go
+
+    5050
+
+#### 循环嵌套
+
+在 for 循环中嵌套一个或多个 for 循环。
+
+    for [condition |  ( init; condition; increment ) | Range]
+    {
+       for [condition |  ( init; condition; increment ) | Range]
+       {
+          statement(s);
+       }
+       statement(s);
+    }
+    
+###### 实例
+
+循环嵌套来输出 2 到 100 间的素数：
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+	/* 定义局部变量 */
+	var i, j int
+
+	for i=2; i < 100; i++ {
+		for j=2; j <= (i/j); j++ {
+			if i%j == 0 {
+				break // 如果发现因子，则不是素数
+			}
+		}
+		if j > (i/j) {
+			fmt.Printf("%d  是素数\n", i)
+		}
+	}
+}
+
+```
+
+> D:\Program Files (x86)\Ampps\www\github\golang-study\4.if-for>go run forFor.go
+
+    2  是素数
+    3  是素数
+    5  是素数
+    7  是素数
+    11  是素数
+    13  是素数
+    17  是素数
+    19  是素数
+    23  是素数
+    29  是素数
+    31  是素数
+    37  是素数
+    41  是素数
+    43  是素数
+    47  是素数
+    53  是素数
+    59  是素数
+    61  是素数
+    67  是素数
+    71  是素数
+    73  是素数
+    79  是素数
+    83  是素数
+    89  是素数
+    97  是素数
+
+#### 循环控制
+
+- break 语句：经常用于中断当前 for 循环或跳出 switch 语句。
+
+- continue 语句： 跳过当前循环的剩余语句，然后继续进行下一轮循环。
+
+- goto 语句：将控制转移到被标记的语句。
+
+#### 无线循环
+
+如果循环中条件语句永远不为 false 则会进行无限循环，我们可以通过 for 循环语句中只设置一个条件表达式来执行无限循环：
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+    for true  {
+        fmt.Printf("这是无限循环。\n");
+    }
+}
+```
