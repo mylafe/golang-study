@@ -12,8 +12,8 @@
 3. [数据类型和声明](3.dataType/README.md)
 4. [条件和循环](4.if-for/README.md)
 5. [数组](5.arr/README.md)
-6. 切片
+6. [函数](6.fun/README.md)
 7. 集合
 8. 循环
-9. 函数
+9. 切片
 10. 通道
