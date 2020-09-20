@@ -24,7 +24,7 @@
 
 8. [范围](8.range/README.md)
 
-9. 切片
+9. [切片](9.slice/README.md)
 
 10. 递归函数
 
