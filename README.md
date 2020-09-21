@@ -26,7 +26,7 @@
 
 9. [切片](9.slice/README.md)
 
-10. 递归函数
+10. [递归函数](10.recursive/README.md)
 
 11. 接口
 
