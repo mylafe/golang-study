@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	const name string  = "mylafe"
+	const name string = "mylafe"
 	fmt.Println(name)
 
 	const age = 30
