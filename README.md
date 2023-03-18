@@ -23,7 +23,7 @@
 10. [递归函数](10.recursive/README.md)
 11. [接口](11.interface/README.md)
 12. [错误处理](12.error/README.md)
-13. [并发](13.conc/README.md)
+13. [并发和互斥锁、读写锁](13.conc/README.md)
 14. 库
 
 	- [mysql](https://github.com/go-sql-driver/mysql)
