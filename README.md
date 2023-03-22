@@ -29,7 +29,9 @@
 	- [mysql](https://github.com/go-sql-driver/mysql)
 	- [mysqlx ](github.com/jmoiron/sqlx)
 	- [redis](https://github.com/go-redis/redis)
-15. 依赖管理
+	- [gorm](https://github.com/go-gorm/gorm)
+
+15. [依赖管理](15.mod/README.md)
 16. [框架](16.frame/README.md)
 
 	- [Iris](https://github.com/kataras/iris) 性能好，学习曲线低，教程丰富
