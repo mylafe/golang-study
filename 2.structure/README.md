@@ -61,3 +61,7 @@ func main() {
 #### 注意
 
 func main() { 程序入口 `{` 不能单独放在一行，会产生错误
+
+[首页](../README.md)
+
+[下一章](../3.dataType/README.md)

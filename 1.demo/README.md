@@ -27,3 +27,8 @@ go env都正常。折腾了一段时间，打开对应文件发现textflag.h乱�
 
     原因：头文件加密导致go.exe无法正确读取textflag.h
     修复：杀进程——修改明文模式——重装go环境——go run success！
+
+
+[首页](../README.md)
+
+[下一章](../2.structure/README.md)

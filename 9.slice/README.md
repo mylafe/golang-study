@@ -167,3 +167,7 @@ func printSlice(x []int){
     len=0 cap=5 slice=[]
     len=2 cap=9 slice=[0 1]
     len=3 cap=7 slice=[2 3 4]
+
+[首页](../README.md)
+
+[下一章](../10.recursive/README.md)

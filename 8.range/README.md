@@ -41,3 +41,7 @@ func main() {
     b -> banana
     0 103
     1 111
+
+[首页](../README.md)
+
+[下一章](../9.slice/README.md)

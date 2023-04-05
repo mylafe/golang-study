@@ -70,3 +70,7 @@ func main() {
 
     I am Nokia, I can call you!
     I am iPhone, I can call you!
+
+[首页](../README.md)
+
+[下一章](../12.error/README.md)

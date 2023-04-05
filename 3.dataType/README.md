@@ -186,4 +186,7 @@ func main()  {
     输出到控制台并换行
     name=Tom,age=30
     name=Tom,age=30,height=180.57
- 
+
+[首页](../README.md)
+
+[下一章](../4.if-for/README.md)

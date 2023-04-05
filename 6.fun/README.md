@@ -128,3 +128,6 @@ func main(){
     1
     2
 
+[首页](../README.md)
+
+[下一章](../7.map/README.md)

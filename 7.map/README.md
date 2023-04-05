@@ -102,3 +102,7 @@ func main() {
     India 首都是 New delhi
     Italy 首都是 Rome
     Japan 首都是 Tokyo
+
+[首页](../README.md)
+
+[下一章](../8.range/README.md)

@@ -67,3 +67,7 @@ func main() {
         Cannot proceed, the divider is zero.
         dividee: 100
         divider: 0
+
+[首页](../README.md)
+
+[下一章](../13.conc/README.md)

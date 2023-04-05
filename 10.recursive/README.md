@@ -65,3 +65,7 @@ func main() {
 > D:\Program Files (x86)\Ampps\www\github\golang-study\10.recursive>go run fib.go
 
     0       1       1       2       3       5       8       13      21      34
+
+[首页](../README.md)
+
+[下一章](../11.interface/README.md)
