@@ -8,6 +8,20 @@
 - 代码风格统一。Go 语言提供了一套格式化工具——go fmt
 - 开发效率高。开发效率与执行效率的完美结合，像写Python代码效率，编写C代码性能
 
+#### [文档](http://docs.litao0501.top)
+
+```
+本地查看
+
+git clone # 克隆项目
+
+npm i docsify-cli -g # 如已安装 本步可忽略
+
+docsify serve # 启动服务
+
+http://localhost:3000
+```
+
 #### 目录
 
 0. [环境搭建](0.install/环境搭建.md)
