@@ -8,7 +8,7 @@
 - 代码风格统一。Go 语言提供了一套格式化工具——go fmt
 - 开发效率高。开发效率与执行效率的完美结合，像写Python代码效率，编写C代码性能
 
-#### [文档](http://docs.litao0501.top)
+#### [文档](https://mylafe.github.io/golang-study/)
 
 ```
 本地查看
