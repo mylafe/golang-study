@@ -2,7 +2,8 @@
 
 #### windows
 
-0. 下载Go包，执行安装包
+- 0.下载Go包，执行安装包
+
 ````
 https://github.com/golang/go #项目
 https://golang.google.cn/dl/ #安装包
@@ -11,21 +12,25 @@ https://golang.google.cn/doc/install #安装说明
 Go 版本：1.15.2
 ````
 
-1.  配置环境变量
+- 1.配置环境变量
 
-    右键此电脑->属性->高级系统设置->环境变量
-    新增配置：PATH：Go安装目录/bin
+> 右键此电脑->属性->高级系统设置->环境变量
+新增配置：PATH：Go安装目录/bin
 
 ![path](../image/0-0.jpg)
 
-2. 验证
-   
-   go version #查看版本
-    go env #环境信息
+- 2.验证
+
+```
+#查看版本
+go version
+#环境信息
+go env
+```
 
 ![go](../image/0-1.jpg)
 
-3.设置[代理](https://goproxy.cn/)
+- 3.**设置[代理](https://goproxy.cn/)**
 
 ```
 # 开启 Go Modules模式并设置代理
@@ -34,8 +39,6 @@ go env -w GOPROXY=https://goproxy.cn,direct
 ```
 
 ![image-20220517114929479](环境搭建.assets/image-20220517114929479.png)
-
-
 
 #### 目录
 
@@ -68,6 +71,8 @@ go env -w GOPROXY=https://goproxy.cn,direct
   [下载](http://c.biancheng.net/view/6124.html)
 
 - Visual Studio Code：免费，无律师函风险（企业开发建议），轻量占用内存非常低。推荐安装编辑器扩展：Go、Chinese (Simplified) 、Git Blame（追踪代码提交记录）
+  [下载](https://code.visualstudio.com/Download)
+
   - 安装go扩展
 
 ​		Windows平台按下`Ctrl+Shift+P`，Mac平台按`Command+Shift+P`，这个时候VS Code界面会弹出一个输入框，输入 `Go:Install/Update Tools`，全选确定。
@@ -76,17 +81,17 @@ go env -w GOPROXY=https://goproxy.cn,direct
 
 ![image-20220517152304876](环境搭建.assets/image-20220517152304876.png)
 
-[下载](https://code.visualstudio.com/Download)
-
-#### 网址
+#### 其他
 
 - Go语言：https://golang.org/
 
 - Go语言中文网：https://studygolang.com/
 
-- Go语言包管理：https://gopm.io/
+- ~~Go语言包管理：https://gopm.io/~~
 
 #### 交叉编译
+
+```
 
 - windows下编译Linux
 
@@ -100,6 +105,10 @@ go env -w GOPROXY=https://goproxy.cn,direct
   SET GOOS=darwin
   SET GOARCH=amd64
 
+```
+
+```
+
 - Mac下编译Windows
 
   CGO_ENABLED=0 GOOS=windows GOARCH=amd64 go build
@@ -107,6 +116,10 @@ go env -w GOPROXY=https://goproxy.cn,direct
 - Mac下编译Linux
 
   CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build
+
+```
+
+```
 
 - Linux下编译Windows
 
@@ -116,13 +129,11 @@ go env -w GOPROXY=https://goproxy.cn,direct
 
   CGO_ENABLED=0 GOOS=darwin GOARCH=amd64 go build
 
+```
+
 - 其他
 
 ```
 GOOS：目标平台的操作系统（darwin、freebsd、linux、windows）
 GOARCH：目标平台的体系架构（386、amd64、arm）
 ```
-
-[首页](../README.md)
-
-[下一章](../1.demo/README.md)
